@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Anniversary</title>
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: 'Prompt', sans-serif;
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+
+        h1 {
+            color: #ff69b4;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .heart {
+            font-size: 48px;
+            color: red;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        .button {
+            background-color: #ff69b4;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff85c1;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">❤️</div>
+    <h1>สุขสันต์วันครบรอบนะคะที่รัก 6 ปีแล้วว 💖</h1>
+    <p>ขอบคุณที่อยู่เคียงข้างน้องมาตลอด ขอบคุณจริงๆนะคะ</p>
+    <p>น้องอยากเห็นรอยยิ้มพี่ตลอดไปเลยนะ ไม่อยากเห็นพี่ร้องไห้หรือมีความทุกข์อะไรเลย</p>
+    <p>น้องรักพี่มากและจะรักตลอดไปเลยนะคะ :)</p>
+
+    <button class="button" onclick="alert('โปรดรู้ไว้ว่า ใจดวงนี้ของน้อง ได้มอบให้พี่หมดทั้งใจแล้ว 💌')">กดเพื่อดูคำบอกรัก</button>
+</body>
+</html>
